@@ -83,7 +83,6 @@ SubjectData <-merge(ActivityLabelsDataFile,SubjectData, by="activitynumber",all.
 library(dplyr)
 SubjectData <- SubjectData[c(3,2,1,4:ncol(SubjectData))]
 SubjectData <- arrange(SubjectData,subject,activityname)
-SubjectData$activityname <- as.character(SubjectData$activityname)
 
 # 4. Appriopriately labels the data set with descriptive variable names.
 
