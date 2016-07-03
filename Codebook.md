@@ -37,34 +37,58 @@ fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.(Note the 'f' to 
 Following measurements were taken :
 
  Gyro - gyroscopic measurements
+ 
  Acc - accelerometer measurements
+ 
  f and t - indicate frequency and time domain signal
+ 
  mean() and std() - for each subject for each activity measurements
+ 
  Standard gravity units 'g'/s for accelerometer, radians/second for gyroscope and jerk rad/sec(?)
+ 
  Jerk - the body linear acceleration and angular velocity
+ 
  Gravity - gravity acceleration signals
+ 
  Body - body motion components
+ 
  Mag - magnitude
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
